@@ -1,0 +1,20 @@
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      statsd:
+        host: localhost
+        port: 8125
+        flavor: telegraf
+
+server:
+  port: 0
+
+concurrent-metrics-publisher:
+  host: localhost
+  instance.id: 1
+  pool.size: 50
