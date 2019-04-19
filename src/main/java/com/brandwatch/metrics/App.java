@@ -25,7 +25,6 @@ public class App {
      * Replace the call to metricsFacade.incrementWithoutLocking() to
      * metricsFacade.incrementWithLocking() to see the common tags correctly applied
      */
-    @Autowired
     @EventListener(ApplicationReadyEvent.class)
     public void run() {
         while (true)
