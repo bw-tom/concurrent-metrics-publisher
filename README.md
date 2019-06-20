@@ -1,6 +1,7 @@
 # Concurrent Metrics Publisher
 
 A MVP for investigating potential concurrency bugs in micrometer's telegraf flavoured statsd publisher.
+As this bug has now been fixed, this is archived
 
 ## Overview
 
